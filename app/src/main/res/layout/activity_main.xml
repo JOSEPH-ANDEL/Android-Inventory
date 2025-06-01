@@ -8,26 +8,35 @@
         <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Welcome to the Candy Store Inventory System!"
+            android:layout_height="100dp"
+            android:text="Welcome to the Store Inventory System!"
             android:textAlignment="center"
             android:textSize="34sp"
             android:textStyle="bold"
-            android:translationY="20px" />
+            android:translationY="20dp" />
 
         <Button
             android:id="@+id/main"
             android:layout_width="match_parent"
-            android:layout_height="250px"
+            android:layout_height="100dp"
+            android:gravity="center"
             android:onClick="updateInventory"
-            android:text="Manage Inventory" />
+            android:paddingBottom="10dp"
+            android:text="Inventory"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
 
         <Button
             android:id="@+id/orders"
             android:layout_width="match_parent"
-            android:layout_height="250px"
+            android:layout_height="100dp"
+            android:gravity="center"
             android:onClick="updateOrder"
-            android:text="Handle Orders" />
+            android:paddingBottom="10dp"
+            android:text="Handle Orders"
+            android:textAlignment="center"
+            android:textSize="20sp" />
 
     </LinearLayout>
 
