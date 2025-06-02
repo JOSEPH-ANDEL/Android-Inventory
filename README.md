@@ -1,0 +1,2 @@
+# Android Inventory App
+This app was created in Android Studio using Java and is meant to serve as an inventory system that can be synced across devices using Firebase. Users can add and remove items with descriptions, prices, and quantities to the inventory. Users can also handle orders by adding specific quantities of items to the order which will then show to final price and then remove however many items were in that order from the inventory.
